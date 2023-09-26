@@ -35,7 +35,7 @@
         "network_model": "bridge",
         "web_ui": {
             "http": "80",
-            "path": "/"
+            "path": "/admin"
         },
         "envs": [
             {
@@ -130,7 +130,7 @@
         },
         "restart_policy": "unless-stopped",
         "sysctls": [],
-        "cap_add": {},
+        "cap_add": [],
         "labels": []
     },
     "abilities": {
